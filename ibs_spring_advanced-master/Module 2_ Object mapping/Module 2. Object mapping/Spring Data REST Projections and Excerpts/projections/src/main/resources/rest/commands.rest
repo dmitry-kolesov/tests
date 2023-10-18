@@ -1,0 +1,15 @@
+###
+GET http://localhost:8081/customers/1
+
+###
+GET http://localhost:8081/customers/1?projection=myprojection2
+
+###
+GET http://localhost:8081/customers
+
+###
+GET http://localhost:8081/customers/search/findByLastname?lastname=Smith
+
+###
+GET http://localhost:8081/customer/projection?lastname=Smith
+Accept: application/json
